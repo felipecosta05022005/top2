@@ -11,7 +11,7 @@ from discord import Member
 
 token = "NzQwNzQ4MzA3MTg5NzI3Mjcz.GyC_7C.E-iaiGb3s3Gc7kZFv0h4azEVkwuiS1ZziAjmoY"
 
-client = commands.Bot(command_prefix='!')
+client = discord.Client(intents=discord.Intents.default())
 client.remove_command('help')
 
 
